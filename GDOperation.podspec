@@ -46,9 +46,9 @@ TODO: Add long description of the pod here.
     sp.source_files = 'GDOperation/Classes/YYText/**/*'
   end
 
-  s.subspec 'Firebase' do |sp|
-    sp.dependency 'GDOperation/YYText'
-    sp.dependency 'Firebase/Database'
-    sp.source_files = 'GDOperation/Classes/Firebase/**/*'
-  end
+#s.subspec 'Firebase' do |sp|
+#   sp.dependency 'GDOperation/YYText'
+#   sp.dependency 'Firebase/Database'
+#   sp.source_files = 'GDOperation/Classes/Firebase/**/*'
+# end
 end
